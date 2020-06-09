@@ -1,8 +1,65 @@
+/***************************    ***************************/
+/***************************    ***************************/
+
+.cur-point, .cur-point:hover { cursor: pointer; }
+h1, h2, h3, h4, h5, h6 { font-family: Georgia, Serif; }
+
+/***************************    ***************************/
+/***************************    ***************************/
+
+
+
+body {
+    font-family: Geneva, Verdana, Tahoma, Sans-serif;
+    font-size: 14px;
+}
+body a:hover { color: lightseagreen; }
+
+/*~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~*/
+
 header {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
+                            /*~~~ HEADER - LEFT ~~~*/
+header input {
+    width: 80%;
+    height: 18px; font-size: 18px;
+}
+.logo-img { padding-bottom: 26px; }
+nav ul {
+    font-family: Georgia, Serif; list-style: none;
+    text-decoration: underline; color: black;
+    padding: 0; font-size: 16px;
+}
+nav ul a { color: black; }
+nav li { padding-bottom: 9.5px; }
+.home-searchbarimg { margin-left: 5px; margin-top: -5px; }
+.home-input-search { font-size: 12px; margin-bottom: -10px; }
+
+                            /*~~~ HEADER - RIGHT ~~~*/
+.header-right ul { list-style: none; }
+.header-right ul a, .header-right a{ color: black; margin-left: 6px; font-size: 12px }
+.header-right li { display: inline-block; margin-left: 10px; text-decoration: underline;}
+.home-btmright-header { margin-top: -15px; }
+.home-btmright-header a {
+    color: darkslategray; margin: 0 5px;
+}
+
+
+/*~~~~~~~~~~~~~~~ NEWEST ADDITIONS - HOME ~~~~~~~~~~~~~~~*/
+
+h3 {
+    font-size: 16.5px; text-decoration: underline;
+    padding-bottom: 10px; font-weight: 400; padding-left: 0;
+}
+.home-newaddition-row { padding-bottom: 14px; }
 .home-preview { display: flex; flex-direction: row; }
 .home-preview-imgbox { display: inline-flex; width: 80px; height: 115px; }
 .home-preview-imgbox img { max-width: 100%; max-height: 115px; overflow: hidden; }
 .home-preview span { display: block; margin-left: 5px; }
+
+/*~~~~~~~~~~~~~~~ NEWS - HOME ~~~~~~~~~~~~~~~*/
+
+.home-news-preview  { display: block; padding-bottom: 12.5px; }
+.home-news-date { font-weight: bold; }
