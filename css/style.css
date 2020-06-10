@@ -38,9 +38,12 @@ nav li { padding-bottom: 9.5px; }
 .home-input-search { font-size: 12px; margin-bottom: -10px; }
 
                             /*~~~ HEADER - RIGHT ~~~*/
-.header-right ul { list-style: none; }
-.header-right ul a, .header-right a{ color: black; margin-left: 6px; font-size: 12px }
+.header-right ul { list-style: none; padding-top: 25px; }
+.header-right ul a, .header-right a{
+    color: black; margin-left: 6px; font-size: 12px;
+}
 .header-right li { display: inline-block; margin-left: 10px; text-decoration: underline;}
+.home-btmright-header, .home-btmright-top { text-align: right; }
 .home-btmright-header { margin-top: -15px; }
 .home-btmright-header a {
     color: darkslategray; margin: 0 5px;
@@ -56,10 +59,32 @@ h3 {
 .home-newaddition-row { padding-bottom: 14px; }
 .home-preview { display: flex; flex-direction: row; }
 .home-preview-imgbox { display: inline-flex; width: 80px; height: 115px; }
-.home-preview-imgbox img { max-width: 100%; max-height: 115px; overflow: hidden; }
+.home-preview-imgbox img { max-width: 80px; height: 115px; overflow: hidden; }
 .home-preview span { display: block; margin-left: 5px; }
 
 /*~~~~~~~~~~~~~~~ NEWS - HOME ~~~~~~~~~~~~~~~*/
 
 .home-news-preview  { display: block; padding-bottom: 12.5px; }
 .home-news-date { font-weight: bold; }
+
+/*~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~*/
+
+footer {padding: 38px 0 20px 0; font-size: 13.8px; }
+.footer-busyimg img {
+    width: 180px;
+    margin-left: -115px; margin-top: -67px;
+}
+
+
+
+
+
+
+
+
+.ad {
+    margin: 10px; margin-left: auto; width: 50%;
+}
+
+
+.gamedesc-box { background-color: lightyellow; }
