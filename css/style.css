@@ -85,3 +85,16 @@ footer {padding: 38px 0 20px 0; font-size: 13.8px; }
 .ad {
     margin: 10px; margin-left: auto; width: 50%;
 }
+
+
+
+.pdb {
+    /*background-color: lightyellow; border: 1px dashed black;*/
+    text-align: center; margin-bottom: 10px;
+}
+h5 { padding-top: 3.5px; }
+.pdb h5, .pdb a:hover {
+    font-size: 15.5px !important;
+    font-family: Geneva, Verdana, Tahoma, Sans-serif;
+    color: black; text-decoration: none;
+}
